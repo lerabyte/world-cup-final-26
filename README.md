@@ -50,8 +50,3 @@ The historical model predicts three possible outcomes:
 If the match remains tied, recency-weighted historical shootout performance is used to estimate which team is more likely to win the trophy.
 
 Detailed 2026 statistics such as possession, shots, shots on target, and corners were also tested. Because they did not improve performance on the knockout-round holdout, the model correctly assigned them zero weight in the final prediction.
-
-## Disclaimer
-
-This is an educational machine-learning project, not a guarantee or betting recommendation. A probability close to 50% means the model considers the match highly uncertain.
-
