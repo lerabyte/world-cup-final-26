@@ -29,24 +29,7 @@ The model was trained on older matches and validated on newer ones instead of ra
 - `requirements.txt` — required Python packages
 - `data/README.md` — required dataset files and setup instructions
 
-## Run the model
-
-1. Open `World_Cup_Final_Argentina_vs_Spain_Model.ipynb` in Google Colab.
-2. Download the five original CSV files listed in `data/README.md`.
-3. Upload the CSV files into the Colab session.
-4. Select **Runtime → Run all**.
-5. Scroll to the final cells to see the prediction and probability chart.
-
 The notebook automatically recognizes filenames with suffixes such as `results(2).csv` or `matches(3).csv`.
-
-## Model structure
-
-The historical model predicts three possible outcomes:
-
-- Spain wins before a shootout
-- The match remains tied
-- Argentina wins before a shootout
-
-If the match remains tied, recency-weighted historical shootout performance is used to estimate which team is more likely to win the trophy.
+y to win the trophy.
 
 Detailed 2026 statistics such as possession, shots, shots on target, and corners were also tested. Because they did not improve performance on the knockout-round holdout, the model correctly assigned them zero weight in the final prediction.
