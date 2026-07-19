@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+world_cup_prediction.json
+
+# Keep downloaded datasets local.
+data/*.csv
+
