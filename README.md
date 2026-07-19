@@ -1,7 +1,7 @@
 # 2026 World Cup Final Predictor
 
 This project uses machine learning to predict the eventual winner of the 2026 World Cup final between Spain and Argentina.
-Check out my explanation ([on TikTok](https://www.tiktok.com/@lerabyte/video/7664003310478707999))
+Check out my explanation [on TikTok.](https://www.tiktok.com/@lerabyte/video/7664003310478707999)
 
 The model combines multinomial logistic regression with histogram gradient boosting. It uses only information that would have been available before each match, including Elo ratings, recent form, opponent strength, recovery time, scoring diversity, and penalty and late-goal patterns. A separate shootout calculation converts the draw probability into each team's final probability of becoming champion.
 
